@@ -6,7 +6,6 @@
         
         <?php the_content(); ?>
         
-        <h1>From page.php</h1>
     
     <?php endwhile; ?>
 </div>
