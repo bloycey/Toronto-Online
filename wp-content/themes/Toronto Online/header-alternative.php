@@ -10,7 +10,6 @@
   <div id="page">
     <div class="content container">
      <h1>HEADER Alternative</h1>   
-    </div>   
-  </div>
+
   
    
