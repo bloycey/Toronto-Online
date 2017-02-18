@@ -42,8 +42,9 @@ get_header(); ?>
                <a href="<?php the_permalink(); ?>">
                     <?php the_post_thumbnail('medium-blog'); ?>
                 </a>
-                
-                <?php the_category(', '); ?>
+                <div class="category">
+                   <?php the_category(', '); ?>
+                </div>    
             </div>
         
         
@@ -58,7 +59,7 @@ get_header(); ?>
             <div class="post-information">
                
                 <div class="author">
-                     By: <?php the_author(); ?>
+                     By: <span><?php the_author(); ?></span>
                 </div>
                 <div class="date">
                     <?php the_time('F j, Y'); ?>
@@ -68,6 +69,7 @@ get_header(); ?>
         
         
     </li>
+       
     
     
     
