@@ -1,5 +1,9 @@
 <div id="secondary" class="secondary">
-    <h1>Hello from sidebar.php</h1>
+ <div id="testimonials">
+     
+     <?php dynamic_sidebar('testimonials'); ?>
+     
+ </div>
     
 </div>
 

@@ -32,4 +32,8 @@ function theme_widgets() {
 
 add_action('widgets_init', 'theme_widgets');
 
+/** Add featured Image **/
+
+add_theme_support('post-thumbnails');
+
 add_filter('show_admin_bar', '__return_false');

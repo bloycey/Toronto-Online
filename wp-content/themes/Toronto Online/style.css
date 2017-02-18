@@ -105,6 +105,41 @@ p {
 .content {
  margin-top: 20px!important;
 }
+
+
+/** Sidebar **/
+
+#testimonials h3 {
+    color: #a00622;
+    font-size: 20px;
+    font-size: 2rem;
+}
+
+#testimonials .textwidget {
+    font-size: 18px;
+    font-size: 1.8rem;
+    line-height: 34px;
+    color: #767676;
+    background-image: url(img/svg_quote.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-left: 80px;
+    font-style: italic;
+}
+
+#testimonials .textwidget p {
+    font-size: 24px;
+    font-size: 2.4rem;
+}
+
+#testimonials .textwidget span {
+    display:block;
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
 footer nav {
  display: none;
 }
@@ -123,6 +158,25 @@ footer p{
  display: inline;
  margin-left: 20px;
  }
+ 
+/** Main Content **/    
+.primary {
+    float: left;
+    width: 70%;
+    padding-right: 20px;
+    }   
+    
+.secondary {
+    float: right;
+    width: 30%;
+    margin: 0;
+    clear: none;
+    } 
+    
+    #testimonials {
+        padding-top: 70px;
+    } 
+    
 }
 @media only screen and (min-width : 992px) {
  /** Header navigation **/
