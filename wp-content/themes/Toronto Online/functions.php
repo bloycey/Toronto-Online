@@ -36,4 +36,16 @@ add_action('widgets_init', 'theme_widgets');
 
 add_theme_support('post-thumbnails');
 
+add_image_size('featured', 1100, 418, true);
+
 add_filter('show_admin_bar', '__return_false');
+
+
+
+
+
+
+
+
+
+
