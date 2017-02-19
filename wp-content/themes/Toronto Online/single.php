@@ -15,12 +15,29 @@
   <?php } ?>
   
   
-   <div id="primary" class="primary post-<?php the_ID(); ?>">
-    <?php while(have_posts() ): the_post();?>
-    
-        
-        <?php the_content(); ?>
-        
+ <div id="primary" class="primary post-<?php the_ID(); ?>">
+       <?php while(have_posts() ): the_post();?>   
+    <article>
+          <div class="written-info">
+              <div class="column">
+                  <?php the_tags(__('Tags for this post:', 'TorontoOnline'), ', ', '<br>');?>
+              </div>
+              <div class="column">
+                  <?php _e('Category: ', 'torontoOnline') . the_category(', ');?>
+              </div>
+              <div class="column">
+                  <?php _e('Written By: ', 'torontoOnline') . "<span>" . the_author() . "</span>"; ?>
+                  
+              </div> 
+               
+          </div>
+           <?php the_content(); ?> 
+           
+           <?php comments_template(); ?>
+       
+   </article>
+   
+   <?php edit_post_link(); ?>
     
     <?php endwhile; ?>
 </div>
