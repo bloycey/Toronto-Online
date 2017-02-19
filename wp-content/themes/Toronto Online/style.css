@@ -258,7 +258,41 @@ ul.blog-visit li .post-information div.date {
     font-weight: bold;
 }
 
+/* Single Post */
 
+.single .written-info {
+    background-color: #ebebeb;
+    padding: 5px;
+    font-size: 12px;
+    font-size: 1.2rem;
+    overflow: auto;
+    margin-bottom: 20px;
+    
+}
+
+.single .written-info .column {
+    float: left;
+    margin-right: 20px;
+}
+
+.single .written-info .column:last-child {
+    text-align: right;
+    float: right;
+}
+
+.single .written-info a {
+    font-weight: bold;
+}
+
+/* Comment Form */
+
+.comment-form-comment label {
+    display: none;
+}
+
+.single textarea {
+    width: 100%;
+}
 
 @media only screen and (min-width : 480px) {
     
@@ -299,7 +333,7 @@ ul.blog-visit li {
     } 
     
     #testimonials {
-        padding-top: 70px;
+        padding-top: 45px;
     } 
     
 }

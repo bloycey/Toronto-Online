@@ -20,7 +20,7 @@
     <article>
           <div class="written-info">
               <div class="column">
-                  <?php the_tags(__('Tags for this post:', 'TorontoOnline'), ', ', '<br>');?>
+                  <?php the_tags(__('Tags for this post: ', 'TorontoOnline'), ', ', '<br>');?>
               </div>
               <div class="column">
                   <?php _e('Category: ', 'torontoOnline') . the_category(', ');?>
