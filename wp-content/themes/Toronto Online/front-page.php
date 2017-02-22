@@ -1,6 +1,15 @@
 <?php get_header(); ?>
 
     <div class="bottom-front-page">
+       <div class="about-us">
+            <?php $aboutUs = new WP_Query('page_id=11')?>
+            <?php while($aboutUs->have_posts() ): $aboutUs->the_post(); ?>
+            
+                <h2><?php the_title();?></h2>
+                <?php the_content(); ?>
+            
+             <?php endwhile; wp_reset_postdata(); ?>
+       </div>
         
         <div class="blog-tips">
             <h2>Tips when travelling to toronto</h2>

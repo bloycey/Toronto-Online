@@ -429,7 +429,7 @@ div.bottom-front-page h3 {
     margin: 10px 0;
 }
 
-div.bottom-front-page li a.read-more {
+div.bottom-front-page li a.read-more, a.more-link {
     font-weight: bold;
     display: block;
     text-align: right;
@@ -461,7 +461,11 @@ div.bottom-front-page li a.read-more {
     
     /** FRONT PAGE **/
 
-
+div.bottom-front-page .about-us {
+    float: left;
+    width: 30%;
+    padding-right: 20px;
+}
 
 /** LATEST 2 ENTRIES **/
     
