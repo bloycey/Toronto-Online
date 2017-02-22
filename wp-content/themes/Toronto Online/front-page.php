@@ -20,7 +20,7 @@
                 <h3><?php the_title(); ?></h3>
                 <?php the_excerpt(); ?>
                 
-                <a href="<?php the_permalink(); ?>">continue reading</a>
+                <a href="<?php the_permalink(); ?>" class="read-more">continue reading</a>
                 
             </li>
             
