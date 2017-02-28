@@ -15,7 +15,7 @@
          <p>TorontoOnline <?php echo date('Y'); ?></p>
      </div>
      
-     
+     <?php wp_footer(); ?>
  </footer>
  
 </body>
